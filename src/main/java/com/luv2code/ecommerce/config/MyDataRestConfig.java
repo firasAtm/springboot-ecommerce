@@ -29,7 +29,7 @@ public class MyDataRestConfig  implements RepositoryRestConfigurer {
 
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
-        // was added automatically but didn't correspond to the the video
+        // was added automatically but didn't correspond to the video
         //RepositoryRestConfigurer.super.configureRepositoryRestConfiguration(config, cors);
 
         HttpMethod[] theUnsupportedActions= {HttpMethod.PUT, HttpMethod.POST, HttpMethod.DELETE};
